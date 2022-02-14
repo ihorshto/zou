@@ -6,7 +6,19 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.container-little {
+  max-width: 1086px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-slider{
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
