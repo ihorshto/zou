@@ -13,10 +13,27 @@ $(function () {
     slidesToShow: 2,
     slidesToScroll: 1,
     centerMode: true,
-      focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 1060,
+        settings: {
+          focusOnSelect: false,
+          centerMode: false,
+        }
+      },
+      {
+        breakpoint: 921,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+          focusOnSelect: false,
+        }
+      },
+    ],
   });
 
-  $('.menu__btn').on('click', function(){
-    $('.menu__list').toggleClass('menu__list--active') 
+  $('.menu__btn').on('click', function () {
+    $('.menu__list').toggleClass('menu__list--active')
   });
+
 });
