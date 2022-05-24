@@ -28,6 +28,10 @@
     align-items: center;
     flex-wrap: wrap;
   }
+
+  .logo{
+    z-index: 100;
+  }
 }
 
 .menu {
@@ -35,6 +39,7 @@
 
   &__btn {
     display: none;
+    z-index: 100;
   }
 
   &__list {
@@ -70,6 +75,7 @@
   font-size: 16px;
   line-height: 19px;
   margin-left: auto;
+  z-index: 100;
   position: relative;
 
   &::before {
@@ -435,7 +441,7 @@
     position: absolute;
     bottom: 0;
     font-size: 0;
-    border: none;
+    border: none;   
     border-radius: 50%;
     cursor: pointer;
     box-shadow: -1px 13px 20px #F0F2F4;
